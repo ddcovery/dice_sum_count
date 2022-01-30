@@ -4,7 +4,7 @@
 ///  Recursive solution with memoization
 ///  Test is performed for 2 to 150 dice
 ///
-///  Results of each test includes additional information:
+///  Results of each test include additional information:
 ///   -callsCount: Number of times that "count" method has been called
 ///   -memoizedCount: Total values memoized while solving the problem.
 ///
