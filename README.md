@@ -59,9 +59,14 @@ We only test 1 sum for each number of dices **d**: the one with more configurati
 
 i.e.:
 
-* count(14, 5)
-  * 14 = (5 + 30) / 2
-* count(21, 6)
-  * 21 = (6 + 35) / 2
-* count(28, 8):
-* count(35, 10)
+`count(14, 5)`
+14 = (5 + 30) / 2
+
+`count(21, 6)`
+21 = (6 + 35) / 2
+
+`count(28, 8)`
+28 = (8 + 48) / 2
+
+`count(35, 10)`
+* 35 = (10 + 60) / 2
