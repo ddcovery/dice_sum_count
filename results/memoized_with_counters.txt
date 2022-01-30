@@ -1,0 +1,657 @@
+{ sum: 7, dices: 2, result: 6, callsCount: 7, memoizedCount: 7 }
+time: 6.396ms
+
+{ sum: 14, dices: 4, result: 146, callsCount: 109, memoizedCount: 34 }
+time: 0.299ms
+
+{ sum: 21, dices: 6, result: 4332, callsCount: 271, memoizedCount: 71 }
+time: 0.354ms
+
+{
+  sum: 28,
+  dices: 8,
+  result: 135954,
+  callsCount: 493,
+  memoizedCount: 118
+}
+time: 0.493ms
+
+{
+  sum: 35,
+  dices: 10,
+  result: 4395456,
+  callsCount: 775,
+  memoizedCount: 175
+}
+time: 2.017ms
+
+{
+  sum: 42,
+  dices: 12,
+  result: 144840476,
+  callsCount: 1117,
+  memoizedCount: 242
+}
+time: 0.894ms
+
+{
+  sum: 49,
+  dices: 14,
+  result: 4836766584,
+  callsCount: 1519,
+  memoizedCount: 319
+}
+time: 2.958ms
+
+{
+  sum: 56,
+  dices: 16,
+  result: 163112472594,
+  callsCount: 1981,
+  memoizedCount: 406
+}
+time: 1.863ms
+
+{
+  sum: 63,
+  dices: 18,
+  result: 5542414273884,
+  callsCount: 2503,
+  memoizedCount: 503
+}
+time: 1.386ms
+
+{
+  sum: 70,
+  dices: 20,
+  result: 189456975899496,
+  callsCount: 3085,
+  memoizedCount: 610
+}
+time: 1.708ms
+
+{
+  sum: 77,
+  dices: 22,
+  result: 6507792553644256,
+  callsCount: 3727,
+  memoizedCount: 727
+}
+time: 1.877ms
+
+{
+  sum: 84,
+  dices: 24,
+  result: 224442843729333280,
+  callsCount: 4429,
+  memoizedCount: 854
+}
+time: 1.352ms
+
+{
+  sum: 91,
+  dices: 26,
+  result: 7766945604528200000,
+  callsCount: 5191,
+  memoizedCount: 991
+}
+time: 1.598ms
+
+{
+  sum: 98,
+  dices: 28,
+  result: 269557528994032060000,
+  callsCount: 6013,
+  memoizedCount: 1138
+}
+time: 2.801ms
+
+{
+  sum: 105,
+  dices: 30,
+  result: 9.378595792117362e+21,
+  callsCount: 6895,
+  memoizedCount: 1295
+}
+time: 2.560ms
+
+{
+  sum: 112,
+  dices: 32,
+  result: 3.270172445116098e+23,
+  callsCount: 7837,
+  memoizedCount: 1462
+}
+time: 2.611ms
+
+{
+  sum: 119,
+  dices: 34,
+  result: 1.1424476161675993e+25,
+  callsCount: 8839,
+  memoizedCount: 1639
+}
+time: 2.561ms
+
+{
+  sum: 126,
+  dices: 36,
+  result: 3.997977859018131e+26,
+  callsCount: 9901,
+  memoizedCount: 1826
+}
+time: 2.734ms
+
+{
+  sum: 133,
+  dices: 38,
+  result: 1.4012116583204827e+28,
+  callsCount: 11023,
+  memoizedCount: 2023
+}
+time: 2.713ms
+
+{
+  sum: 140,
+  dices: 40,
+  result: 4.917668807114352e+29,
+  callsCount: 12205,
+  memoizedCount: 2230
+}
+time: 2.674ms
+
+{
+  sum: 147,
+  dices: 42,
+  result: 1.7280234973199865e+31,
+  callsCount: 13447,
+  memoizedCount: 2447
+}
+time: 2.224ms
+
+{
+  sum: 154,
+  dices: 44,
+  result: 6.078906218482125e+32,
+  callsCount: 14749,
+  memoizedCount: 2674
+}
+time: 2.475ms
+
+{
+  sum: 161,
+  dices: 46,
+  result: 2.1406409006231555e+34,
+  callsCount: 16111,
+  memoizedCount: 2911
+}
+time: 2.750ms
+
+{
+  sum: 168,
+  dices: 48,
+  result: 7.545140819105468e+35,
+  callsCount: 17533,
+  memoizedCount: 3158
+}
+time: 2.995ms
+
+{
+  sum: 175,
+  dices: 50,
+  result: 2.661724902905255e+37,
+  callsCount: 19015,
+  memoizedCount: 3415
+}
+time: 3.730ms
+
+{
+  sum: 182,
+  dices: 52,
+  result: 9.397281794451244e+38,
+  callsCount: 20557,
+  memoizedCount: 3682
+}
+time: 3.656ms
+
+{
+  sum: 189,
+  dices: 54,
+  result: 3.3201586763228406e+40,
+  callsCount: 22159,
+  memoizedCount: 3959
+}
+time: 3.796ms
+
+{
+  sum: 196,
+  dices: 56,
+  result: 1.1738428925167294e+42,
+  callsCount: 23821,
+  memoizedCount: 4246
+}
+time: 4.098ms
+
+{
+  sum: 203,
+  dices: 58,
+  result: 4.1527433960682357e+43,
+  callsCount: 25543,
+  memoizedCount: 4543
+}
+time: 4.386ms
+
+{
+  sum: 210,
+  dices: 60,
+  result: 1.4699945554075282e+45,
+  callsCount: 27325,
+  memoizedCount: 4850
+}
+time: 4.695ms
+
+{
+  sum: 217,
+  dices: 62,
+  result: 5.206371987182565e+46,
+  callsCount: 29167,
+  memoizedCount: 5167
+}
+time: 4.905ms
+
+{
+  sum: 224,
+  dices: 64,
+  result: 1.84492370577009e+48,
+  callsCount: 31069,
+  memoizedCount: 5494
+}
+time: 6.115ms
+
+{
+  sum: 231,
+  dices: 66,
+  result: 6.540812090121005e+49,
+  callsCount: 33031,
+  memoizedCount: 5831
+}
+time: 6.029ms
+
+{
+  sum: 238,
+  dices: 68,
+  result: 2.3199706804236467e+51,
+  callsCount: 35053,
+  memoizedCount: 6178
+}
+time: 6.643ms
+
+{
+  sum: 245,
+  dices: 70,
+  result: 8.232267635045104e+52,
+  callsCount: 37135,
+  memoizedCount: 6535
+}
+time: 10.949ms
+
+{
+  sum: 252,
+  dices: 72,
+  result: 2.922349703239323e+54,
+  callsCount: 39277,
+  memoizedCount: 6902
+}
+time: 13.506ms
+
+{
+  sum: 259,
+  dices: 74,
+  result: 1.0377936744068712e+56,
+  callsCount: 41479,
+  memoizedCount: 7279
+}
+time: 11.478ms
+
+{
+  sum: 266,
+  dices: 76,
+  result: 3.686779477612577e+57,
+  callsCount: 43741,
+  memoizedCount: 7666
+}
+time: 10.708ms
+
+{
+  sum: 273,
+  dices: 78,
+  result: 1.3101845443966892e+59,
+  callsCount: 46063,
+  memoizedCount: 8063
+}
+time: 9.417ms
+
+{
+  sum: 280,
+  dices: 80,
+  result: 4.657570399133849e+60,
+  callsCount: 48445,
+  memoizedCount: 8470
+}
+time: 9.493ms
+
+{
+  sum: 287,
+  dices: 82,
+  result: 1.6562315803396828e+62,
+  callsCount: 50887,
+  memoizedCount: 8887
+}
+time: 9.724ms
+
+{
+  sum: 294,
+  dices: 84,
+  result: 5.891296841709474e+63,
+  callsCount: 53389,
+  memoizedCount: 9314
+}
+time: 10.074ms
+
+{
+  sum: 301,
+  dices: 86,
+  result: 2.096152860742547e+65,
+  callsCount: 55951,
+  memoizedCount: 9751
+}
+time: 9.682ms
+
+{
+  sum: 308,
+  dices: 88,
+  result: 7.460219329901625e+66,
+  callsCount: 58573,
+  memoizedCount: 10198
+}
+time: 10.834ms
+
+{
+  sum: 315,
+  dices: 90,
+  result: 2.6557770945254535e+68,
+  callsCount: 61255,
+  memoizedCount: 10655
+}
+time: 12.858ms
+
+{
+  sum: 322,
+  dices: 92,
+  result: 9.456668082746188e+69,
+  callsCount: 63997,
+  memoizedCount: 11122
+}
+time: 11.780ms
+
+{
+  sum: 329,
+  dices: 94,
+  result: 3.368112632329292e+71,
+  callsCount: 66799,
+  memoizedCount: 11599
+}
+time: 14.176ms
+
+{
+  sum: 336,
+  dices: 96,
+  result: 1.1998659341715563e+73,
+  callsCount: 69661,
+  memoizedCount: 12086
+}
+time: 14.817ms
+
+{
+  sum: 343,
+  dices: 98,
+  result: 4.275357967066276e+74,
+  callsCount: 72583,
+  memoizedCount: 12583
+}
+time: 13.443ms
+
+{
+  sum: 350,
+  dices: 100,
+  result: 1.5237092858379905e+76,
+  callsCount: 75565,
+  memoizedCount: 13090
+}
+time: 13.914ms
+
+{
+  sum: 357,
+  dices: 102,
+  result: 5.431478543237434e+77,
+  callsCount: 78607,
+  memoizedCount: 13607
+}
+time: 15.283ms
+
+{
+  sum: 364,
+  dices: 104,
+  result: 1.9364977775766097e+79,
+  callsCount: 81709,
+  memoizedCount: 14134
+}
+time: 15.124ms
+
+{
+  sum: 371,
+  dices: 106,
+  result: 6.905510127392161e+80,
+  callsCount: 84871,
+  memoizedCount: 14671
+}
+time: 16.250ms
+
+{
+  sum: 378,
+  dices: 108,
+  result: 2.4629261140691033e+82,
+  callsCount: 88093,
+  memoizedCount: 15218
+}
+time: 17.957ms
+
+{
+  sum: 385,
+  dices: 110,
+  result: 8.785794516033559e+83,
+  callsCount: 91375,
+  memoizedCount: 15775
+}
+time: 17.568ms
+
+{
+  sum: 392,
+  dices: 112,
+  result: 3.134599646929423e+85,
+  callsCount: 94717,
+  memoizedCount: 16342
+}
+time: 18.313ms
+
+{
+  sum: 399,
+  dices: 114,
+  result: 1.1185411854551885e+87,
+  callsCount: 98119,
+  memoizedCount: 16919
+}
+time: 18.287ms
+
+{
+  sum: 406,
+  dices: 116,
+  result: 3.991979949170154e+88,
+  callsCount: 101581,
+  memoizedCount: 17506
+}
+time: 19.898ms
+
+{
+  sum: 413,
+  dices: 118,
+  result: 1.4249149018834517e+90,
+  callsCount: 105103,
+  memoizedCount: 18103
+}
+time: 20.314ms
+
+{
+  sum: 420,
+  dices: 120,
+  result: 5.086880772146048e+91,
+  callsCount: 108685,
+  memoizedCount: 18710
+}
+time: 20.084ms
+
+{
+  sum: 427,
+  dices: 122,
+  result: 1.8162440139425852e+93,
+  callsCount: 112327,
+  memoizedCount: 19327
+}
+time: 21.783ms
+
+{
+  sum: 434,
+  dices: 124,
+  result: 6.485670693802991e+94,
+  callsCount: 116029,
+  memoizedCount: 19954
+}
+time: 23.374ms
+
+{
+  sum: 441,
+  dices: 126,
+  result: 2.3162839562620915e+96,
+  callsCount: 119791,
+  memoizedCount: 20591
+}
+time: 24.326ms
+
+{
+  sum: 448,
+  dices: 128,
+  result: 8.27338330465564e+97,
+  callsCount: 123613,
+  memoizedCount: 21238
+}
+time: 28.617ms
+
+{
+  sum: 455,
+  dices: 130,
+  result: 2.9554747239020923e+99,
+  callsCount: 127495,
+  memoizedCount: 21895
+}
+time: 27.169ms
+
+{
+  sum: 462,
+  dices: 132,
+  result: 1.0558993041055477e+101,
+  callsCount: 131437,
+  memoizedCount: 22562
+}
+time: 28.266ms
+
+{
+  sum: 469,
+  dices: 134,
+  result: 3.772831186779215e+102,
+  callsCount: 135439,
+  memoizedCount: 23239
+}
+time: 28.917ms
+
+{
+  sum: 476,
+  dices: 136,
+  result: 1.3482188408730192e+104,
+  callsCount: 139501,
+  memoizedCount: 23926
+}
+time: 27.659ms
+
+{
+  sum: 483,
+  dices: 138,
+  result: 4.818370117945123e+105,
+  callsCount: 143623,
+  memoizedCount: 24623
+}
+time: 28.055ms
+
+{
+  sum: 490,
+  dices: 140,
+  result: 1.7222069034077906e+107,
+  callsCount: 147805,
+  memoizedCount: 25330
+}
+time: 30.979ms
+
+{
+  sum: 497,
+  dices: 142,
+  result: 6.156226834022974e+108,
+  callsCount: 152047,
+  memoizedCount: 26047
+}
+time: 31.931ms
+
+{
+  sum: 504,
+  dices: 144,
+  result: 2.2008314773933986e+110,
+  callsCount: 156349,
+  memoizedCount: 26774
+}
+time: 33.217ms
+
+{
+  sum: 511,
+  dices: 146,
+  result: 7.868658026865211e+111,
+  callsCount: 160711,
+  memoizedCount: 27511
+}
+time: 32.838ms
+
+{
+  sum: 518,
+  dices: 148,
+  result: 2.813553177839013e+113,
+  callsCount: 165133,
+  memoizedCount: 28258
+}
+time: 33.431ms
+
+{
+  sum: 525,
+  dices: 150,
+  result: 1.006118355549035e+115,
+  callsCount: 169615,
+  memoizedCount: 29015
+}
+time: 33.711ms
+
