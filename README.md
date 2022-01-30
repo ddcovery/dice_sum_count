@@ -28,7 +28,7 @@ The code shows how performance can be improved drastically adding memoization wi
 * callsCount:  How many times "count" function has been called.
 * memoizedCount: How many values have been memoized.
 
-#### How to run tests
+### How to run tests
 
 You need nodejs on your system
 
@@ -51,7 +51,7 @@ or
 Anyway,  I include results of this 3 executions (performed with my i5) on **results** folder
 
 
-#### About the dataset
+### About the dataset
 
 We only test 1 sum for each number of dices **d**: the sum for which we will find the most possible dices configurations (the worst case): 
 
