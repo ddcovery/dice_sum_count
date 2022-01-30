@@ -1,5 +1,5 @@
 ///
-///  count(S,D)  Count how many configurations of D dices sum S
+///  count(S,D)  Count how many configurations of D dice sum S
 ///
 ///  Recursive solution with memoization
 ///  Test is performed for 2 to 150 dice
@@ -13,10 +13,10 @@
 main();
 
 function main() {
-  for (let dices = 2; dices <= 150; dices += 2) {
-    let sum = (dices + 6 * dices) / 2;
+  for (let dice = 2; dice <= 150; dice += 2) {
+    let sum = (dice + 6 * dice) / 2;
     console.time("time");
-    console.log({ sum, dices, ...count(sum, dices) });
+    console.log({ sum, dice, ...count(sum, dice) });
     console.timeEnd("time");
     console.log("");
   }
