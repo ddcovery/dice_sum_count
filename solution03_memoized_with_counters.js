@@ -2,7 +2,7 @@
 ///  count(S,D)  Count how many configurations of D dices sum S
 ///
 ///  Recursive solution with memoization
-///  Test is formormed for 2 to 150 dices
+///  Test is performed for 2 to 150 dice
 ///
 ///  Results of each test includes additional information:
 ///   -callsCount: Number of times that "count" method has been called
