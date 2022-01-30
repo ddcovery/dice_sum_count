@@ -2,7 +2,7 @@
 ///  count(S,D)  Count how many configurations of D dices sum S
 ///
 ///  Recursive O( n * 6^n) solution without memoization.
-///  Test is formormed for 2 to 12 dices only
+///  Test is performed for 2 to 12 dices only
 ///
 ///
 ///  Author: Antonio Cabrera Perez (2022-01-30)
