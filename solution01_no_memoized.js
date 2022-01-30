@@ -28,14 +28,3 @@ function count(s, d) {
   else
     return [1, 2, 3, 4, 5, 6].map(n => count(s - n, d - 1)).reduce((a, b) => a + b)
 }
-
-function chrono(fn) {
-  let begin = new Date();
-  return {
-    result: fn(),
-    time: (new Date()).getTime() - begin.getTime()
-  }
-}
-
-
-
