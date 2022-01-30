@@ -1,4 +1,4 @@
-Algorithm to solve the **"How many configurations of 20 dices sums 70?"** problem answered in [es.quora.com](https://qr.ae/pGB07a)
+Algorithm to solve the **"How many configurations of 20 dice sums 70?"** problem answered in [es.quora.com](https://qr.ae/pGB07a)
 
 The base algorithm is a recursive solution with a complexity order of **O(n * 6^n)**
 
@@ -19,11 +19,11 @@ The code shows how performance can be improved drastically adding memoization wi
 * solution02_memoization.js
 * solution03_memoization_with_counters.js
 
-**solution01_no_memoization.js**  runs the standard algorithm for 2, 4, 5, ..., 12 dices.
+**solution01_no_memoization.js**  runs the standard algorithm for 2, 4, 5, ..., 12 dice.
 
-**solution02_memoization.js** runs the memoized version for 2,4,6, ..., 150 dices.
+**solution02_memoization.js** runs the memoized version for 2,4,6, ..., 150 dice.
 
-**solution03_memoization_with_counters.js** runs the memoized version for 2 to 150 dices adding some counters:
+**solution03_memoization_with_counters.js** runs the memoized version for 2 to 150 dice adding some counters:
 
 * callsCount:  How many times "count" function has been called.
 * memoizedCount: How many values have been memoized.
@@ -53,7 +53,7 @@ Anyway,  I include results of this 3 executions (performed with my i5) on **resu
 
 ### About the dataset
 
-We only test 1 sum for each number of dices **d**: the one with more configurations (the worst case): 
+We only test 1 sum for each number of dice **d**: the one with more configurations (the worst case): 
 
 `s = (d + 6d) / 2`
 
