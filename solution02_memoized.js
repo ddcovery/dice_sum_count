@@ -2,7 +2,7 @@
 ///  count(S,D)  Count how many configurations of D dices sum S
 ///
 ///  Recursive solution with memoization
-///  Test is formormed for 2 to 150 dices
+///  Test is performed for 2 to 150 dices
 ///
 ///
 ///  Author: Antonio Cabrera Perez (2022-01-30)
@@ -56,7 +56,3 @@ function memoizate(fn) {
     cache.get(a).set(b, value)
   }
 }
-
-
-
-
