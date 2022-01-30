@@ -53,7 +53,7 @@ Anyway,  I include results of this 3 executions (performed with my i5) on **resu
 
 ### About the dataset
 
-We only test 1 sum for each number of dices **d**: the sum for which we will find the most possible dices configurations (the worst case): 
+We only test 1 sum for each number of dices **d**: the one with more configurations (the worst case): 
 
 `s = (d + 6d) / 2`
 
