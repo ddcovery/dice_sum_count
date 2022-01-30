@@ -1,8 +1,8 @@
 ///
-///  count(S,D)  Count how many configurations of D dices sum S
+///  count(S,D)  Count how many configurations of D dice sum S
 ///
 ///  Recursive O( n * 6^n) solution without memoization.
-///  Test is performed for 2 to 12 dices only
+///  Test is performed for 2 to 12 dice only
 ///
 ///
 ///  Author: Antonio Cabrera Perez (2022-01-30)
@@ -11,10 +11,10 @@
 main();
 
 function main() {
-  for (let dices = 2; dices <= 14; dices += 2) {
-    let sum = (dices + 6 * dices) / 2;
+  for (let dice = 2; dice <= 14; dice += 2) {
+    let sum = (dice + 6 * dice) / 2;
     console.time("time");
-    console.log({ sum, dices, result: count(sum, dices)} );
+    console.log({ sum, dice, result: count(sum, dice)} );
     console.timeEnd("time");
     console.log("");
   }
