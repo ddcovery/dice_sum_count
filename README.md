@@ -1,6 +1,15 @@
 Algorithm to solve the **"How many configurations of 20 dice sum 70?"** problem answered in [es.quora.com](https://qr.ae/pGB07a)
 
-The base algorithm is a recursive solution with a complexity order of **O(n * 6^n)**
+### Presentation
+
+We define **count(S,D)** as "**how many configurations of D dice sum S**".
+
+This definition can be expressed algebraically as
+
+ ![count(s,d=1)](assets/count_s_1.png),
+ ![count(s,d>1)](assets/count_s_d.png) 
+
+And can be written as a recursive algorithm:
 
 ```javascript
 /// how many configurations of <d> dice sum <s>?
@@ -13,8 +22,11 @@ function count(s, d) {
     return [1, 2, 3, 4, 5, 6].map(n => count(s - n, d - 1)).reduce((a, b) => a + b)
 }
 ```
+This algorithm, without any optimizacion, has a complexity order of **O( D * 6^D )** where D is the number of dice.
 
-The code shows how performance can be improved drastically adding memoization or converting tail recursion to an iterative version
+### The algorithms
+
+The code you can find in this project shows how performance can be improved drastically adding memoization or converting tail recursion to an iterative version.
 
 The evolution is shown with this 4 code files
 
@@ -54,7 +66,11 @@ or
 
 > $ node solution03_memoized_with_counters
 
-Anyway,  I include results of this 3 executions (performed with my i5) on **results** folder
+or
+
+> $ node solution04_iterative
+
+Anyway,  I include results of this 4 executions (performed with my i5) on **results** folder
 
 
 ### About the dataset
