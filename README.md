@@ -13,11 +13,9 @@ function count(s, d) {
 }
 ```
 
-The code shows how performance can be improved drastically adding memoization with 3 files
+The code shows how performance can be improved drastically adding memoization and converting tail recursion to an iterative version
 
-* solution01_no_memoization.js
-* solution02_memoization.js
-* solution03_memoization_with_counters.js
+The evolution is shown with this 4 code files
 
 **solution01_no_memoization.js**  runs the standard algorithm for 2, 4, 5, ..., 12 dice.
 
@@ -27,6 +25,13 @@ The code shows how performance can be improved drastically adding memoization wi
 
 * callsCount:  How many times "count" function has been called.
 * memoizedCount: How many values have been memoized.
+
+**solution04_iterative.js** runs the iterative version for 2,4,6,..., 150 dices
+The idea:
+
+* Iterative solution generates all counts from **count(1,1)** to **count(sum,dices)** taking into account that each state **count(s,d)** depends, at most, on the state **count(s-6, d-1)**. 
+
+* The tail recursion is ported easily to iterative version  keeping the record of the previously calculated states into a circular array of 7 rows. 
 
 ### How to run tests
 
