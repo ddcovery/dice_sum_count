@@ -3,6 +3,7 @@ Algorithm to solve the **"How many configurations of 20 dice sum 70?"** problem 
 The base algorithm is a recursive solution with a complexity order of **O(n * 6^n)**
 
 ```javascript
+/// how many configurations of <d> dice sum <s>?
 function count(s, d) {
   if (s < d || d * 6 < s)
     return 0
@@ -13,7 +14,7 @@ function count(s, d) {
 }
 ```
 
-The code shows how performance can be improved drastically adding memoization and converting tail recursion to an iterative version
+The code shows how performance can be improved drastically adding memoization or converting tail recursion to an iterative version
 
 The evolution is shown with this 4 code files
 
@@ -74,4 +75,4 @@ i.e.:
 28 = (8 + 48) / 2
 
 `count(35, 10)`
-* 35 = (10 + 60) / 2
+35 = (10 + 60) / 2
