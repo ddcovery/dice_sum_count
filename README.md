@@ -1,4 +1,4 @@
-Algorithm to solve the **"How many configurations of 20 dice sums 70?"** problem answered in [es.quora.com](https://qr.ae/pGB07a)
+Algorithm to solve the **"How many configurations of 20 dice sum 70?"** problem answered in [es.quora.com](https://qr.ae/pGB07a)
 
 The base algorithm is a recursive solution with a complexity order of **O(n * 6^n)**
 
