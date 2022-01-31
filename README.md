@@ -30,16 +30,16 @@ The code you can find in this project shows how performance can be improved dras
 
 The evolution is shown with this 4 code files
 
-**solution01_no_memoization.js**  runs the standard algorithm for 2, 4, 5, ..., 12 dice.
+**[solution01_no_memoized.js](solution01_no_memoized.js)**  runs the standard algorithm for 2, 4, 5, ..., 12 dice.
 
-**solution02_memoization.js** runs the memoized version for 2,4,6, ..., 150 dice.
+**[solution02_memoized.js](solution02_memoized.js)** runs the memoized version for 2,4,6, ..., 150 dice.
 
-**solution03_memoization_with_counters.js** runs the memoized version for 2 to 150 dice adding some counters:
+**[solution03_memoized_with_counters.js](solution03_memoized_with_counters.js)** runs the memoized version for 2 to 150 dice adding some counters:
 
 * callsCount:  How many times "count" function has been called.
 * memoizedCount: How many values have been memoized.
 
-**solution04_iterative.js** runs the iterative version for 2,4,6,..., 150 dices
+**[solution04_iterative.js](solution04_iterative.js)** runs the iterative version for 2,4,6,..., 150 dices
 The idea:
 
 * Iterative solution generates all counts from **count(1,1)** to **count(sum,dices)** taking into account that each state **count(s,d)** depends, at most, on the state **count(s-6, d-1)**. 
