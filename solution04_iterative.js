@@ -52,7 +52,7 @@ function count(totalSums, totalDice) {
  */
 function Counts(totalDice) {
   let firstSum = 1;
-  // Wich row is the "last row"
+  // Which row is the "last row"
   let circular_offset = 0;
   // How many rows are maintained in the circular structure
   const circular_size = 7;
