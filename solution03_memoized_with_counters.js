@@ -22,21 +22,21 @@ function main() {
   }
 }
 
-function count(s, d) {
+function count(sum, dice) {
   const m = memoizer();
-  const memoized_count = m.wrapIt((s, d) => {
+  const countWithMemoization = m.wrapIt((s, d) => {
     if (s < d || d * 6 < s)
       return 0
     else if (d === 1)
       return 1
     else
-      return [1, 2, 3, 4, 5, 6].map(n => memoized_count(s - n, d - 1)).reduce((a, b) => a + b)
+      return [1, 2, 3, 4, 5, 6].reduce((total, side) => total + countWithMemoization(s - side, d - 1), 0)
   });
 
   return {
-    result: memoized_count(s, d),
-    callsCount: m.callsCount(),
-    memoizedCount: m.memoizedCount()
+    result: countWithMemoization(sum, dice),
+    totalCalls: m.totalCalls(),
+    totalMemoized: m.totalMemoized()
   }
 }
 
@@ -47,8 +47,8 @@ function memoizer() {
 
   return {
     wrapIt: (fn) => wrapIt(fn),
-    callsCount: () => callsCount,
-    memoizedCount: () => memoizedCount,
+    totalCalls: () => callsCount,
+    totalMemoized: () => memoizedCount,
   }
 
   function wrapIt(fn) {

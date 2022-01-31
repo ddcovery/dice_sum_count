@@ -7,14 +7,13 @@
 ///
 ///  Author: Antonio Cabrera Perez (2022-01-30)
 
-
 main();
 
 function main() {
   for (let dice = 2; dice <= 14; dice += 2) {
     let sum = (dice + 6 * dice) / 2;
     console.time("time");
-    console.log({ sum, dice, result: count(sum, dice)} );
+    console.log({ sum, dice, result: count(sum, dice) });
     console.timeEnd("time");
     console.log("");
   }
@@ -26,5 +25,5 @@ function count(s, d) {
   else if (d === 1)
     return 1
   else
-    return [1, 2, 3, 4, 5, 6].map(n => count(s - n, d - 1)).reduce((a, b) => a + b)
+    return [1, 2, 3, 4, 5, 6].reduce((total, n) => total + count(s - n, d - 1), 0)
 }

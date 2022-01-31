@@ -1,225 +1,225 @@
-{ sum: 7, dices: 2, result: 6 }
-time: 5.734ms
+{ sum: 7, dice: 2, result: 6 }
+time: 4.828ms
 
-{ sum: 14, dices: 4, result: 146 }
-time: 0.848ms
+{ sum: 14, dice: 4, result: 146 }
+time: 0.249ms
 
-{ sum: 21, dices: 6, result: 4332 }
-time: 0.384ms
+{ sum: 21, dice: 6, result: 4332 }
+time: 0.289ms
 
-{ sum: 28, dices: 8, result: 135954 }
-time: 0.489ms
+{ sum: 28, dice: 8, result: 135954 }
+time: 0.414ms
 
-{ sum: 35, dices: 10, result: 4395456 }
-time: 1.910ms
+{ sum: 35, dice: 10, result: 4395456 }
+time: 0.544ms
 
-{ sum: 42, dices: 12, result: 144840476 }
-time: 1.128ms
+{ sum: 42, dice: 12, result: 144840476 }
+time: 1.831ms
 
-{ sum: 49, dices: 14, result: 4836766584 }
-time: 3.195ms
+{ sum: 49, dice: 14, result: 4836766584 }
+time: 1.713ms
 
-{ sum: 56, dices: 16, result: 163112472594 }
-time: 1.805ms
+{ sum: 56, dice: 16, result: 163112472594 }
+time: 1.431ms
 
-{ sum: 63, dices: 18, result: 5542414273884 }
-time: 0.994ms
+{ sum: 63, dice: 18, result: 5542414273884 }
+time: 0.703ms
 
-{ sum: 70, dices: 20, result: 189456975899496 }
-time: 1.048ms
+{ sum: 70, dice: 20, result: 189456975899496 }
+time: 0.990ms
 
-{ sum: 77, dices: 22, result: 6507792553644256 }
-time: 1.960ms
+{ sum: 77, dice: 22, result: 6507792553644256 }
+time: 0.916ms
 
-{ sum: 84, dices: 24, result: 224442843729333280 }
-time: 1.253ms
+{ sum: 84, dice: 24, result: 224442843729333280 }
+time: 0.657ms
 
-{ sum: 91, dices: 26, result: 7766945604528200000 }
-time: 1.468ms
+{ sum: 91, dice: 26, result: 7766945604528200000 }
+time: 0.740ms
 
-{ sum: 98, dices: 28, result: 269557528994032060000 }
-time: 2.584ms
+{ sum: 98, dice: 28, result: 269557528994032060000 }
+time: 1.482ms
 
-{ sum: 105, dices: 30, result: 9.378595792117362e+21 }
-time: 2.347ms
+{ sum: 105, dice: 30, result: 9.378595792117362e+21 }
+time: 0.882ms
 
-{ sum: 112, dices: 32, result: 3.270172445116098e+23 }
-time: 1.819ms
+{ sum: 112, dice: 32, result: 3.270172445116098e+23 }
+time: 0.989ms
 
-{ sum: 119, dices: 34, result: 1.1424476161675993e+25 }
-time: 2.554ms
+{ sum: 119, dice: 34, result: 1.1424476161675993e+25 }
+time: 1.143ms
 
-{ sum: 126, dices: 36, result: 3.997977859018131e+26 }
-time: 3.000ms
+{ sum: 126, dice: 36, result: 3.997977859018131e+26 }
+time: 1.183ms
 
-{ sum: 133, dices: 38, result: 1.4012116583204827e+28 }
-time: 2.322ms
+{ sum: 133, dice: 38, result: 1.4012116583204827e+28 }
+time: 1.370ms
 
-{ sum: 140, dices: 40, result: 4.917668807114352e+29 }
-time: 2.975ms
+{ sum: 140, dice: 40, result: 4.917668807114352e+29 }
+time: 1.480ms
 
-{ sum: 147, dices: 42, result: 1.7280234973199865e+31 }
-time: 2.275ms
+{ sum: 147, dice: 42, result: 1.7280234973199865e+31 }
+time: 1.598ms
 
-{ sum: 154, dices: 44, result: 6.078906218482125e+32 }
-time: 3.334ms
+{ sum: 154, dice: 44, result: 6.078906218482125e+32 }
+time: 1.788ms
 
-{ sum: 161, dices: 46, result: 2.1406409006231555e+34 }
-time: 2.861ms
+{ sum: 161, dice: 46, result: 2.1406409006231555e+34 }
+time: 1.905ms
 
-{ sum: 168, dices: 48, result: 7.545140819105468e+35 }
-time: 2.732ms
+{ sum: 168, dice: 48, result: 7.545140819105468e+35 }
+time: 2.237ms
 
-{ sum: 175, dices: 50, result: 2.661724902905255e+37 }
-time: 3.186ms
+{ sum: 175, dice: 50, result: 2.661724902905255e+37 }
+time: 2.154ms
 
-{ sum: 182, dices: 52, result: 9.397281794451244e+38 }
-time: 3.372ms
+{ sum: 182, dice: 52, result: 9.397281794451244e+38 }
+time: 2.379ms
 
-{ sum: 189, dices: 54, result: 3.3201586763228406e+40 }
-time: 3.673ms
+{ sum: 189, dice: 54, result: 3.3201586763228406e+40 }
+time: 2.648ms
 
-{ sum: 196, dices: 56, result: 1.1738428925167294e+42 }
-time: 3.999ms
+{ sum: 196, dice: 56, result: 1.1738428925167294e+42 }
+time: 3.116ms
 
-{ sum: 203, dices: 58, result: 4.1527433960682357e+43 }
-time: 5.209ms
+{ sum: 203, dice: 58, result: 4.1527433960682357e+43 }
+time: 3.418ms
 
-{ sum: 210, dices: 60, result: 1.4699945554075282e+45 }
-time: 5.781ms
+{ sum: 210, dice: 60, result: 1.4699945554075282e+45 }
+time: 3.237ms
 
-{ sum: 217, dices: 62, result: 5.206371987182565e+46 }
-time: 6.306ms
+{ sum: 217, dice: 62, result: 5.206371987182565e+46 }
+time: 3.450ms
 
-{ sum: 224, dices: 64, result: 1.84492370577009e+48 }
-time: 8.222ms
+{ sum: 224, dice: 64, result: 1.84492370577009e+48 }
+time: 3.732ms
 
-{ sum: 231, dices: 66, result: 6.540812090121005e+49 }
-time: 10.077ms
+{ sum: 231, dice: 66, result: 6.540812090121005e+49 }
+time: 5.384ms
 
-{ sum: 238, dices: 68, result: 2.3199706804236467e+51 }
-time: 9.976ms
+{ sum: 238, dice: 68, result: 2.3199706804236467e+51 }
+time: 7.384ms
 
-{ sum: 245, dices: 70, result: 8.232267635045104e+52 }
-time: 8.895ms
+{ sum: 245, dice: 70, result: 8.232267635045104e+52 }
+time: 8.144ms
 
-{ sum: 252, dices: 72, result: 2.922349703239323e+54 }
-time: 8.969ms
+{ sum: 252, dice: 72, result: 2.922349703239323e+54 }
+time: 7.815ms
 
-{ sum: 259, dices: 74, result: 1.0377936744068712e+56 }
-time: 7.143ms
+{ sum: 259, dice: 74, result: 1.0377936744068712e+56 }
+time: 6.918ms
 
-{ sum: 266, dices: 76, result: 3.686779477612577e+57 }
-time: 7.479ms
+{ sum: 266, dice: 76, result: 3.686779477612577e+57 }
+time: 6.330ms
 
-{ sum: 273, dices: 78, result: 1.3101845443966892e+59 }
-time: 7.839ms
+{ sum: 273, dice: 78, result: 1.3101845443966892e+59 }
+time: 6.379ms
 
-{ sum: 280, dices: 80, result: 4.657570399133849e+60 }
-time: 9.018ms
+{ sum: 280, dice: 80, result: 4.657570399133849e+60 }
+time: 5.946ms
 
-{ sum: 287, dices: 82, result: 1.6562315803396828e+62 }
-time: 9.131ms
+{ sum: 287, dice: 82, result: 1.6562315803396828e+62 }
+time: 6.177ms
 
-{ sum: 294, dices: 84, result: 5.891296841709474e+63 }
-time: 9.628ms
+{ sum: 294, dice: 84, result: 5.891296841709474e+63 }
+time: 6.237ms
 
-{ sum: 301, dices: 86, result: 2.096152860742547e+65 }
-time: 9.774ms
+{ sum: 301, dice: 86, result: 2.096152860742547e+65 }
+time: 6.370ms
 
-{ sum: 308, dices: 88, result: 7.460219329901625e+66 }
-time: 12.452ms
+{ sum: 308, dice: 88, result: 7.460219329901625e+66 }
+time: 7.278ms
 
-{ sum: 315, dices: 90, result: 2.6557770945254535e+68 }
-time: 11.150ms
+{ sum: 315, dice: 90, result: 2.6557770945254535e+68 }
+time: 7.192ms
 
-{ sum: 322, dices: 92, result: 9.456668082746188e+69 }
-time: 12.333ms
+{ sum: 322, dice: 92, result: 9.456668082746188e+69 }
+time: 7.489ms
 
-{ sum: 329, dices: 94, result: 3.368112632329292e+71 }
-time: 12.697ms
+{ sum: 329, dice: 94, result: 3.368112632329292e+71 }
+time: 8.688ms
 
-{ sum: 336, dices: 96, result: 1.1998659341715563e+73 }
-time: 14.003ms
+{ sum: 336, dice: 96, result: 1.1998659341715563e+73 }
+time: 8.324ms
 
-{ sum: 343, dices: 98, result: 4.275357967066276e+74 }
-time: 14.845ms
+{ sum: 343, dice: 98, result: 4.275357967066276e+74 }
+time: 9.158ms
 
-{ sum: 350, dices: 100, result: 1.5237092858379905e+76 }
-time: 14.634ms
+{ sum: 350, dice: 100, result: 1.5237092858379905e+76 }
+time: 9.636ms
 
-{ sum: 357, dices: 102, result: 5.431478543237434e+77 }
-time: 15.110ms
+{ sum: 357, dice: 102, result: 5.431478543237434e+77 }
+time: 9.610ms
 
-{ sum: 364, dices: 104, result: 1.9364977775766097e+79 }
-time: 15.495ms
+{ sum: 364, dice: 104, result: 1.9364977775766097e+79 }
+time: 10.439ms
 
-{ sum: 371, dices: 106, result: 6.905510127392161e+80 }
-time: 16.058ms
+{ sum: 371, dice: 106, result: 6.905510127392161e+80 }
+time: 10.531ms
 
-{ sum: 378, dices: 108, result: 2.4629261140691033e+82 }
-time: 16.344ms
+{ sum: 378, dice: 108, result: 2.4629261140691033e+82 }
+time: 10.796ms
 
-{ sum: 385, dices: 110, result: 8.785794516033559e+83 }
-time: 16.535ms
+{ sum: 385, dice: 110, result: 8.785794516033559e+83 }
+time: 11.673ms
 
-{ sum: 392, dices: 112, result: 3.134599646929423e+85 }
-time: 18.906ms
+{ sum: 392, dice: 112, result: 3.134599646929423e+85 }
+time: 11.608ms
 
-{ sum: 399, dices: 114, result: 1.1185411854551885e+87 }
-time: 17.748ms
+{ sum: 399, dice: 114, result: 1.1185411854551885e+87 }
+time: 12.163ms
 
-{ sum: 406, dices: 116, result: 3.991979949170154e+88 }
-time: 18.718ms
+{ sum: 406, dice: 116, result: 3.991979949170154e+88 }
+time: 13.076ms
 
-{ sum: 413, dices: 118, result: 1.4249149018834517e+90 }
-time: 19.477ms
+{ sum: 413, dice: 118, result: 1.4249149018834517e+90 }
+time: 13.074ms
 
-{ sum: 420, dices: 120, result: 5.086880772146048e+91 }
-time: 21.715ms
+{ sum: 420, dice: 120, result: 5.086880772146048e+91 }
+time: 14.097ms
 
-{ sum: 427, dices: 122, result: 1.8162440139425852e+93 }
-time: 23.055ms
+{ sum: 427, dice: 122, result: 1.8162440139425852e+93 }
+time: 14.212ms
 
-{ sum: 434, dices: 124, result: 6.485670693802991e+94 }
-time: 22.104ms
+{ sum: 434, dice: 124, result: 6.485670693802991e+94 }
+time: 15.159ms
 
-{ sum: 441, dices: 126, result: 2.3162839562620915e+96 }
-time: 23.922ms
+{ sum: 441, dice: 126, result: 2.3162839562620915e+96 }
+time: 15.386ms
 
-{ sum: 448, dices: 128, result: 8.27338330465564e+97 }
-time: 25.304ms
+{ sum: 448, dice: 128, result: 8.27338330465564e+97 }
+time: 16.239ms
 
-{ sum: 455, dices: 130, result: 2.9554747239020923e+99 }
-time: 27.001ms
+{ sum: 455, dice: 130, result: 2.9554747239020923e+99 }
+time: 16.543ms
 
-{ sum: 462, dices: 132, result: 1.0558993041055477e+101 }
-time: 25.942ms
+{ sum: 462, dice: 132, result: 1.0558993041055477e+101 }
+time: 17.027ms
 
-{ sum: 469, dices: 134, result: 3.772831186779215e+102 }
-time: 28.958ms
+{ sum: 469, dice: 134, result: 3.772831186779215e+102 }
+time: 17.528ms
 
-{ sum: 476, dices: 136, result: 1.3482188408730192e+104 }
-time: 29.766ms
+{ sum: 476, dice: 136, result: 1.3482188408730192e+104 }
+time: 18.081ms
 
-{ sum: 483, dices: 138, result: 4.818370117945123e+105 }
-time: 27.974ms
+{ sum: 483, dice: 138, result: 4.818370117945123e+105 }
+time: 18.824ms
 
-{ sum: 490, dices: 140, result: 1.7222069034077906e+107 }
-time: 28.401ms
+{ sum: 490, dice: 140, result: 1.7222069034077906e+107 }
+time: 19.588ms
 
-{ sum: 497, dices: 142, result: 6.156226834022974e+108 }
-time: 29.906ms
+{ sum: 497, dice: 142, result: 6.156226834022974e+108 }
+time: 20.262ms
 
-{ sum: 504, dices: 144, result: 2.2008314773933986e+110 }
-time: 31.725ms
+{ sum: 504, dice: 144, result: 2.2008314773933986e+110 }
+time: 21.665ms
 
-{ sum: 511, dices: 146, result: 7.868658026865211e+111 }
-time: 32.595ms
+{ sum: 511, dice: 146, result: 7.868658026865211e+111 }
+time: 22.178ms
 
-{ sum: 518, dices: 148, result: 2.813553177839013e+113 }
-time: 33.532ms
+{ sum: 518, dice: 148, result: 2.813553177839013e+113 }
+time: 22.365ms
 
-{ sum: 525, dices: 150, result: 1.006118355549035e+115 }
-time: 36.774ms
+{ sum: 525, dice: 150, result: 1.006118355549035e+115 }
+time: 22.910ms
 

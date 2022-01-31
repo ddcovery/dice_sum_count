@@ -1,225 +1,225 @@
 { sum: 7, dice: 2, result: 6 }
-time: 4.798ms
+time: 4.331ms
 
 { sum: 14, dice: 4, result: 90 }
-time: 0.713ms
+time: 0.221ms
 
 { sum: 21, dice: 6, result: 1695 }
-time: 0.354ms
+time: 0.258ms
 
 { sum: 28, dice: 8, result: 33061 }
-time: 0.305ms
+time: 0.344ms
 
 { sum: 35, dice: 10, result: 660219 }
-time: 0.612ms
+time: 0.530ms
 
 { sum: 42, dice: 12, result: 13397407 }
-time: 1.101ms
+time: 2.399ms
 
 { sum: 49, dice: 14, result: 275013064 }
-time: 4.014ms
+time: 0.623ms
 
 { sum: 56, dice: 16, result: 5694476973 }
-time: 2.613ms
+time: 0.733ms
 
 { sum: 63, dice: 18, result: 118712309000 }
-time: 2.001ms
+time: 1.738ms
 
 { sum: 70, dice: 20, result: 2488269745146 }
-time: 2.769ms
+time: 1.227ms
 
 { sum: 77, dice: 22, result: 52388296461090 }
-time: 6.928ms
+time: 1.526ms
 
 { sum: 84, dice: 24, result: 1107099517845213 }
-time: 0.739ms
+time: 0.692ms
 
 { sum: 91, dice: 26, result: 23469733649264988 }
-time: 0.351ms
+time: 0.414ms
 
 { sum: 98, dice: 28, result: 498889891817188900 }
-time: 0.389ms
+time: 0.452ms
 
 { sum: 105, dice: 30, result: 10629693605948637000 }
-time: 0.436ms
+time: 0.571ms
 
 { sum: 112, dice: 32, result: 226949746731826770000 }
-time: 0.496ms
+time: 0.555ms
 
 { sum: 119, dice: 34, result: 4.854306364990214e+21 }
-time: 0.546ms
+time: 0.620ms
 
 { sum: 126, dice: 36, result: 1.0399826342239822e+23 }
-time: 0.599ms
+time: 0.684ms
 
 { sum: 133, dice: 38, result: 2.231274459577983e+24 }
-time: 1.080ms
+time: 0.766ms
 
 { sum: 140, dice: 40, result: 4.7934194344508185e+25 }
-time: 0.718ms
+time: 0.878ms
 
 { sum: 147, dice: 42, result: 1.0309789781520252e+27 }
-time: 0.826ms
+time: 1.043ms
 
 { sum: 154, dice: 44, result: 2.219830468746311e+28 }
-time: 0.841ms
+time: 1.129ms
 
 { sum: 161, dice: 46, result: 4.784263829940695e+29 }
-time: 0.883ms
+time: 1.147ms
 
 { sum: 168, dice: 48, result: 1.03204933642616e+31 }
-time: 1.040ms
+time: 1.445ms
 
 { sum: 175, dice: 50, result: 2.228151666469637e+32 }
-time: 1.253ms
+time: 1.749ms
 
 { sum: 182, dice: 52, result: 4.814159662589587e+33 }
-time: 1.202ms
+time: 1.923ms
 
 { sum: 189, dice: 54, result: 1.0408861314563502e+35 }
-time: 1.337ms
+time: 1.962ms
 
 { sum: 196, dice: 56, result: 2.2520140680690424e+36 }
-time: 1.249ms
+time: 2.616ms
 
 { sum: 203, dice: 58, result: 4.875335700606758e+37 }
-time: 1.427ms
+time: 2.371ms
 
 { sum: 210, dice: 60, result: 1.0560533475148498e+39 }
-time: 1.583ms
+time: 1.924ms
 
 { sum: 217, dice: 62, result: 2.288754203321533e+40 }
-time: 1.829ms
+time: 1.999ms
 
 { sum: 224, dice: 64, result: 4.9628364785597616e+41 }
-time: 1.600ms
+time: 2.040ms
 
 { sum: 231, dice: 66, result: 1.0766267057835351e+43 }
-time: 1.705ms
+time: 3.385ms
 
 { sum: 238, dice: 68, result: 2.3366448945626988e+44 }
-time: 1.799ms
+time: 2.979ms
 
 { sum: 245, dice: 70, result: 5.073430428227293e+45 }
-time: 2.364ms
+time: 3.464ms
 
 { sum: 252, dice: 72, result: 1.1020012206062897e+47 }
-time: 1.989ms
+time: 3.285ms
 
 { sum: 259, dice: 74, result: 2.3945536807062895e+48 }
-time: 2.218ms
+time: 2.940ms
 
 { sum: 266, dice: 76, result: 5.204999645196952e+49 }
-time: 2.238ms
+time: 4.017ms
 
 { sum: 273, dice: 78, result: 1.1317815196557568e+51 }
-time: 2.373ms
+time: 3.896ms
 
 { sum: 280, dice: 80, result: 2.461744575241326e+52 }
-time: 2.643ms
+time: 3.388ms
 
 { sum: 287, dice: 82, result: 5.3561796962764205e+53 }
-time: 2.559ms
+time: 3.461ms
 
 { sum: 294, dice: 84, result: 1.1657160796589768e+55 }
-time: 2.931ms
+time: 3.528ms
 
 { sum: 301, dice: 86, result: 2.537757446242441e+56 }
-time: 2.918ms
+time: 3.732ms
 
 { sum: 308, dice: 88, result: 5.526137446883178e+57 }
-time: 3.604ms
+time: 3.689ms
 
 { sum: 315, dice: 90, result: 1.203656141674975e+59 }
-time: 4.059ms
+time: 4.055ms
 
 { sum: 322, dice: 92, result: 2.622331760591051e+60 }
-time: 3.816ms
+time: 4.201ms
 
 { sum: 329, dice: 94, result: 5.714429038327295e+61 }
-time: 4.714ms
+time: 4.177ms
 
 { sum: 336, dice: 96, result: 1.245529175387886e+63 }
-time: 5.237ms
+time: 4.581ms
 
 { sum: 343, dice: 98, result: 2.715356857180321e+64 }
-time: 4.074ms
+time: 4.698ms
 
 { sum: 350, dice: 100, result: 5.920906446373843e+65 }
-time: 4.236ms
+time: 4.786ms
 
 { sum: 357, dice: 102, result: 1.2913212762875123e+67 }
-time: 5.540ms
+time: 5.111ms
 
 { sum: 364, dice: 104, result: 2.816838709720697e+68 }
-time: 4.245ms
+time: 5.195ms
 
 { sum: 371, dice: 106, result: 6.145654592637729e+69 }
-time: 4.419ms
+time: 5.440ms
 
 { sum: 378, dice: 108, result: 1.3410652441793436e+71 }
-time: 4.620ms
+time: 5.769ms
 
 { sum: 385, dice: 110, result: 2.9268772905162256e+72 }
-time: 4.712ms
+time: 5.838ms
 
 { sum: 392, dice: 112, result: 6.388948302482142e+73 }
-time: 4.910ms
+time: 5.887ms
 
 { sum: 399, dice: 114, result: 1.3948323891788417e+75 }
-time: 5.172ms
+time: 6.177ms
 
 { sum: 406, dice: 116, result: 3.0456509568210644e+76 }
-time: 5.201ms
+time: 6.436ms
 
 { sum: 413, dice: 118, result: 6.651222533407141e+77 }
-time: 5.398ms
+time: 6.861ms
 
 { sum: 420, dice: 120, result: 1.4527268527829242e+79 }
-time: 5.662ms
+time: 6.831ms
 
 { sum: 427, dice: 122, result: 3.173405617535824e+80 }
-time: 5.763ms
+time: 7.135ms
 
 { sum: 434, dice: 124, result: 6.933051714781636e+81 }
-time: 5.962ms
+time: 7.458ms
 
 { sum: 441, dice: 126, result: 1.5148816703445717e+83 }
-time: 6.267ms
+time: 7.603ms
 
 { sum: 448, dice: 128, result: 3.3104472371666046e+84 }
-time: 6.428ms
+time: 7.785ms
 
 { sum: 455, dice: 130, result: 7.235135500266015e+85 }
-time: 6.510ms
+time: 8.398ms
 
 { sum: 462, dice: 132, result: 1.5814560690318848e+87 }
-time: 6.847ms
+time: 8.305ms
 
 { sum: 469, dice: 134, result: 3.457136726348595e+88 }
-time: 6.862ms
+time: 8.529ms
 
 { sum: 476, dice: 136, result: 7.55828914237616e+89 }
-time: 7.062ms
+time: 9.099ms
 
 { sum: 483, dice: 138, result: 1.652633663310846e+91 }
-time: 7.383ms
+time: 9.180ms
 
 { sum: 490, dice: 140, result: 3.6138865797320763e+92 }
-time: 7.479ms
+time: 9.488ms
 
 { sum: 497, dice: 142, result: 7.903437277869951e+93 }
-time: 7.872ms
+time: 9.765ms
 
 { sum: 504, dice: 144, result: 1.7286213179751328e+95 }
-time: 7.887ms
+time: 9.930ms
 
 { sum: 511, dice: 146, result: 3.78115882383875e+96 }
-time: 8.289ms
+time: 10.423ms
 
 { sum: 518, dice: 148, result: 8.271610290703551e+97 }
-time: 8.630ms
+time: 10.440ms
 
 { sum: 525, dice: 150, result: 1.8096485197374148e+99 }
-time: 8.547ms
+time: 10.965ms
 

@@ -14,7 +14,7 @@ function main() {
   for (let dice = 2; dice <= 150; dice += 2) {
     let sum = (dice + 6 * dice) / 2;
     console.time("time");
-    console.log({ sum, dice, result: count(sum, dice)} );
+    console.log({ sum, dice, result: count(sum, dice) });
     console.timeEnd("time");
     console.log("");
   }
@@ -27,7 +27,7 @@ function count(s, d) {
     else if (d === 1)
       return 1
     else
-      return [1, 2, 3, 4, 5, 6].map(n => countWithMemoization(s - n, d - 1)).reduce((a, b) => a + b)
+      return [1, 2, 3, 4, 5, 6].reduce((total, side) => total + countWithMemoization(s - side, d - 1), 0)
   });
 
   return countWithMemoization(s, d)

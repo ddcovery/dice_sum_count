@@ -15,11 +15,11 @@
 main();
 
 function main() {
-  
+
   for (let dice = 2; dice <= 150; dice += 2) {
     let sum = (dice + 6 * dice) / 2;
     console.time("time");
-    console.log({ sum, dice, result: count(sum, dice)} );
+    console.log({ sum, dice, result: count(sum, dice) });
     console.timeEnd("time");
     console.log("");
   }
@@ -34,17 +34,10 @@ function count(totalSums, totalDice) {
         counts.set(sum, dice, 0);
       else if (dice === 1)
         counts.set(sum, dice, 1);
-      else {
-        /* 3 times slower than for loop
-            counts.set(sum, dice,
-              [1, 2, 3, 4, 5, 6].map(side => (sum - side > 0) ? counts.get(sum - side, dice - 1) : 0).reduce((a, b) => a + b)
-            )
-        */
-        let count_s_d = 0
-        for (let side = 1; side <= 6; side++)
-          count_s_d += (sum - side > 0) ? counts.get(sum - side, dice - 1) : 0;
-        counts.set(sum, dice, count_s_d);
-      }
+      else
+        counts.set(sum, dice,
+          [1, 2, 3, 4, 5, 6].reduce((t, side) => (sum - side > 0) ? t + counts.get(sum - side, dice - 1) : t, 0)
+        );
 
   return counts.get(totalSums, totalDice);
 }
