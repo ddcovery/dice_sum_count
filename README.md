@@ -14,7 +14,7 @@ function count(s, d) {
 }
 ```
 
-The code shows how performance can be improved drastically adding memoization and converting tail recursion to an iterative version
+The code shows how performance can be improved drastically adding memoization or converting tail recursion to an iterative version
 
 The evolution is shown with this 4 code files
 
