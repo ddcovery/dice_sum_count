@@ -19,7 +19,7 @@ function count(s, d) {
   else if (d === 1)
     return 1
   else
-    return [1, 2, 3, 4, 5, 6].map(n => count(s - n, d - 1)).reduce((a, b) => a + b)
+    return [1, 2, 3, 4, 5, 6].fold( (total, side)=>total+count(s - side, d - 1), 0)
 }
 ```
 This algorithm, without any optimizacion, has a complexity order of **O( D * 6^D )** where D is the number of dice.
