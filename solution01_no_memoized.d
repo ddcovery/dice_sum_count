@@ -25,14 +25,16 @@ ulong count(ulong s, ulong d)
 {
   import std.algorithm : sum, fold;
   import std.range : iota;
-
-  static sides = iota(1, 7);
+  
+  static sides = [1, 2, 3, 4, 5, 6];
   if (s < d || d * 6 < s)
     return 0;
   else if (d == 1)
     return 1;
   else
-    return sides.fold!((total, side) => total + count(s - side, d - 1))(0UL);
+    return sides.fold!((total, side) => 
+      s>side ? total + count(s - side, d - 1) : total
+    )(0UL);
 }
 
 auto measure(alias f)()
