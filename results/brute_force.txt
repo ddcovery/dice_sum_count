@@ -13,3 +13,6 @@ time: 61.865ms
 { sum: 35, dice: 10, result: 4395456 }
 time: 2321.962ms
 
+{ sum: 42, dice: 12, result: 144840476 }
+time: 104911.914ms
+
