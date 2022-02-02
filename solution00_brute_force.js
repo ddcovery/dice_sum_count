@@ -4,6 +4,7 @@
 ///  Brute force solution
 ///  Test is performed for 2 to 12 dice only
 ///
+///  Algorithm fails when the sum of a dice configuration exceeds the floating point precission
 ///
 ///  Author: Antonio Cabrera Perez (2022-01-30)
 
@@ -28,6 +29,7 @@ function count(s, d) {
   return count;
 }
 
+// Generates variations with repetition of 6 elements taken in groups of <dice_count>.
 function vr_generator(total_dice) {
   let vector = Array(total_dice).fill(0);
   let sum = 0;
