@@ -11,7 +11,7 @@
 main();
 
 function main() {
-  for (let dice = 2; dice <= 14; dice += 2) {
+  for (let dice = 2; dice <= 12; dice += 2) {
     let sum = (dice + 6 * dice) / 2;
     console.time("time");
     console.log({ sum, dice, result: count(sum, dice) });
