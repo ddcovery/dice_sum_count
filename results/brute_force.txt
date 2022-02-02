@@ -1,0 +1,15 @@
+{ sum: 7, dice: 2, result: 6 }
+time: 9.475ms
+
+{ sum: 14, dice: 4, result: 146 }
+time: 0.886ms
+
+{ sum: 21, dice: 6, result: 4332 }
+time: 11.299ms
+
+{ sum: 28, dice: 8, result: 135954 }
+time: 61.865ms
+
+{ sum: 35, dice: 10, result: 4395456 }
+time: 2321.962ms
+
