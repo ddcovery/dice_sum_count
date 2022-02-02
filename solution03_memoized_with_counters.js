@@ -36,29 +36,30 @@ function count(sum, dice) {
   return {
     result: countWithMemoization(sum, dice),
     totalCalls: m.totalCalls(),
-    totalMemoized: m.totalMemoized()
+    totalMemoized: m.totalMemoized(),
   }
 }
 
 
 function memoizer() {
-  let callsCount = 0;
-  let memoizedCount = 0;
+  let totalCalls = 0;
+  let totalMemozations = 0;
+  
 
   return {
     wrapIt: (fn) => wrapIt(fn),
-    totalCalls: () => callsCount,
-    totalMemoized: () => memoizedCount,
+    totalCalls: () => totalCalls,
+    totalMemoized: () => totalMemozations,
   }
 
   function wrapIt(fn) {
     const cache = new Map();
     return (a, b) => {
-      callsCount++;
+      totalCalls++;
       if (!has(a, b)) {
         value = fn(a, b);
         set(a, b, value);
-        memoizedCount++;
+        totalMemozations++;
         return value;
       } else {
         return get(a, b);
