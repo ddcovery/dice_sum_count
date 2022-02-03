@@ -36,7 +36,7 @@ function count(totalSums, totalDice) {
         counts.set(sum, dice, 1);
       else
         counts.set(sum, dice,
-          [1, 2, 3, 4, 5, 6].reduce((t, side) => (sum - side > 0) ? t + counts.get(sum - side, dice - 1) : t, 0)
+          [1, 2, 3, 4, 5, 6].reduce((t, side) => t + counts.get(sum - side, dice - 1), 0)
         );
 
   return counts.get(totalSums, totalDice);
