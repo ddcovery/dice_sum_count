@@ -34,12 +34,12 @@ function vr_generator(total_dice) {
   let vector = Array(total_dice).fill(0);
   let sum = 0;
   return {
-    // internal summ refers to values between 0 and 5, but 1..6 is the expected one.
+    // internal sum refers to values between 0 and 5, but 1 to 6 are expected externally: we sum 1 for each die.
     sum: () => sum + total_dice,
     next,
   }
   function next() {
-    // <vector> is treated as a base 6 number:  next variation is generated adding 1 to actual one
+    // <vector> is treated as a base 6 number:  next variation is generated adding 1 to the actual one
     for (let die = 0; die < vector.length; die++) {
       vector[die] = (vector[die] + 1) % 6;
       if (vector[die]!==0) break;
