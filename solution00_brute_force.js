@@ -11,7 +11,7 @@
 main();
 
 function main() {
-  for (let dice = 2; dice <= 14; dice += 2) {
+  for (let dice = 2; dice <= 12; dice += 2) {
     let sum = (dice + 6 * dice) / 2;
     console.time("time");
     console.log({ sum, dice, result: count(sum, dice) });
@@ -39,7 +39,7 @@ function vr_generator(total_dice) {
     next,
   }
   function next() {
-    // VR is treated as a base 6 number:  next variation is generated adding 1 to actual one
+    // <vector> is treated as a base 6 number:  next variation is generated adding 1 to actual one
     for (let die = 0; die < vector.length; die++) {
       vector[die] = (vector[die] + 1) % 6;
       if (vector[die]!==0) break;
