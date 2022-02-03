@@ -7,6 +7,22 @@
 ///
 ///  Author: Antonio Cabrera Perez (2022-01-30)
 
+ulong count(ulong s, ulong d)
+{
+  import std.algorithm : sum, fold;
+  import std.range : iota;
+
+  static sides = [1, 2, 3, 4, 5, 6];
+  if (s < d || d * 6 < s)
+    return 0;
+  else if (d == 1)
+    return 1;
+  else
+    return sides.fold!((total, side) =>
+        s > side ? total + count(s - side, d - 1) : total
+    )(0UL);
+}
+
 void main()
 {
   import std.stdio : writefln;
@@ -14,27 +30,10 @@ void main()
   for (auto dice = 2; dice <= 14; dice += 2)
   {
     auto sum = (dice + 6 * dice) / 2;
-    auto time = measure!(() {
-      "sum:%d, dice:%d, result:%d".writefln(sum, dice, count(sum, dice));
-    });
-    "time:%d".writefln(time);
+    double result = 0.;
+    auto time = measure!(() { result = count(sum, dice); });
+    "sum:%d, dice:%d, result:%f, time:%d".writefln(sum, dice, result, time);
   }
-}
-
-ulong count(ulong s, ulong d)
-{
-  import std.algorithm : sum, fold;
-  import std.range : iota;
-  
-  static sides = [1, 2, 3, 4, 5, 6];
-  if (s < d || d * 6 < s)
-    return 0;
-  else if (d == 1)
-    return 1;
-  else
-    return sides.fold!((total, side) => 
-      s>side ? total + count(s - side, d - 1) : total
-    )(0UL);
 }
 
 auto measure(alias f)()
