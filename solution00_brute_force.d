@@ -72,28 +72,26 @@ struct DiceSums
 
   ulong front() const @property
   {
-    return vectorSum + vector.length; // vector.length === diceCount 
+    import std.algorithm : sum;
+    return sum(vector) + vector.length; // vector.length === diceCount 
   }
 
   void popFront()
   {
-    import std.algorithm : sum;
-
     // <vector> is treated as a base 6 number:  next variation is generated adding 1 to actual one  
     foreach (die; 0 .. vector.length)
     {
       vector[die] = (vector[die] + 1) % 6;
       if (vector[die] != 0)
-        break;
+        return;
     }
-    vectorSum = sum(vector);
-    endReached = vectorSum == 0;
+    endReached=true;
+    
   }
 
   private
   {
     byte[] vector;
-    ulong vectorSum = 0;
     bool endReached = false;
   }
 
@@ -101,8 +99,8 @@ struct DiceSums
   {
     import std.algorithm : sum;
 
-    assert(sum(vector) == vectorSum);
-    assert(!endReached || vectorSum == 0, "endReached -> vectorSum==0");
+    assert(sum(vector) <= 5 * vector.length);
+    assert(!endReached || sum(vector) == 0, "endReached -> vectorSum==0");
   }
 }
 
